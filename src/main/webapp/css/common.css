@@ -1,0 +1,354 @@
+/*
+-------------------------------
+Site:        闁挷绔撮崥搴″酱UI鐟欏嫯瀵�閸忣剛鏁ら弽宄扮础
+Author:      鐠佺顪濇禍锟�Updated:     2011-01-25
+Updated by:
+-------------------------------
+*/
+@import url(base.css);
+
+/*=========婢舵挳鍎�=======*/
+.head{width:100%; height:40px; background:url(../images/head.gif) repeat-x;}
+.headLeft{height:40px; padding:0 0 0 20px; background:url(../images/headLeft.gif) no-repeat left 0; }
+.headRight{background:url(../images/headRight.gif) no-repeat right 0;  vertical-align:top;}
+.loginmsg{ padding:10px 30px 0 0; float:right; text-align:right; color:#fff; font-weight:bold;}
+.loginmsg a{margin:0 5px; color:#fff;}
+.loginmsg a.exit{color:#ffeb43;}
+.state{height:22px; padding:0 15px; clear:both; position:absolute; z-index:999; top:40px; background:#f5ffcb; text-align:left; line-height:22px;}
+.state a{margin:0 5px; color:#dc4b3c;}
+/*========婢舵挳鍎�end=======*/
+
+/*========娑撹缍嬮柈銊ュ瀻=======*/
+.left{width:160px;}
+.right{width:auto; padding:5px 5px 5px 0;}
+.showLeft{width:11px; border-left:1px solid #b0cbee;background: #e2eefe;border-right: 1px solid #b0cbee;}
+.containers{padding:5px 5px 5px 10px; }
+.shrink{width:10px; float:left;}
+.shrink a{width:11px; height:567px; display:block; overflow:hidden; background:url(../images/arrown.gif) no-repeat 0 300px; text-indent:-99999px;}
+.shrink a.expand{background-position:-10px 300px;}
+/*========娑撹缍嬮柈銊ュ瀻 end=======*/
+
+/*========鎼存洟鍎�======*/
+.footer{width:100%; height:23px; overflow:hidden; background:url(../images/footer.gif);}
+.footer .copyRight{width:500px;  margin:1px auto; text-align:center;}
+/*========鎼存洟鍎�========*/
+
+/*========閼挎粌宕�======*/
+.menu{width:150px; margin:10px 6px 10px 10px; overflow:hidden;}
+.menu ul li{width:137px; margin:0 0 6px; padding:0 0 0 10px; _padding:4px 0 3px 10px; background:url(../images/menu.gif) no-repeat; }
+.menu ul li img{margin:0 0 -3px;}
+.menu ul li a{padding:0 0 0 3px; line-height:23px;}
+.menu ul li ul {margin-top:5px;}
+.menu ul li ul li{_width:120px; margin:0; padding:0 0 0 14px;  background:url(../images/icon/iconSubMenu.gif) no-repeat 6px 8px;  line-height:20px;}
+.menu ul li ul li a{color:#666;}
+.menu ul li ul li a:hover{color:#ff6600;}
+.menu ul li ul li a.active{color:#ff6600; border:1px dotted #b39170;}
+.menu ul li ul li ul{margin:0 0 0 -3px; }
+.menu ul li ul li ul li{width:130px; background:url(../images/icon/iconThirdMenu.gif) no-repeat 6px 6px;  }
+.menu ul li ul li ul li a{line-height:16px; line-height:20px\9; color:#777;}
+.menu ul li ul li ul li a:hover{color:#ff6600;}
+	/*--瑜版挸澧犻懣婊冨礋--*/
+.menu ul li.on{background-position:-157px 0; }
+.menu ul li ul li{font-weight:100;}
+.menu ul li ul li.on{background-position:6px 8px; font-weight:bold;}
+.menu ul li ul li.on a{color:#333;}
+.menu ul li ul li.on li a{color:#777;}
+.menu ul li ul li.on li a:hover{}
+	/*--瑜版挸澧犻懣婊冨礋 end--*/
+/*========閼挎粌宕�======*/
+
+/*========閸忣剙鎲�======*/
+.bulletin{height:20px; padding:8px 0; clear:both; display:block;}
+.bulletin span{height:20px; display:inline-block; line-height:18px;}
+.bulletin .bulletinTitle{padding:0 0 0 20px; float:left; background:url(../images/icon/iconBulletin.gif) no-repeat;}
+.bulletin .bulletinTitle a{color:#666;}
+.bulletin .bulletinNext{float:right; display:inline-block; text-align:right;}
+.bulletin .bulletinNext a{height:20px; margin:0 2px; display:block; overflow:hidden; float:left; background:url(../images/button/bulletinNext.gif) no-repeat; line-height:20px; color:#228ac3;}
+.bulletin .bulletinNext a:hover{text-decoration:none;}
+.bulletin .bulletinNext a.prev{width:20px; text-indent:9999px;}
+.bulletin .bulletinNext a.prev:hover{background-position:0 -30px;}
+.bulletin .bulletinNext a.next{width:70px; background-position:-30px 0; text-align:center;}
+.bulletin .bulletinNext a.next:hover{background-position:-30px -30px;}
+/*========閸忣剙鎲�end=======*/
+
+/*========閺嶅洨顒�======*/
+	/*-----6娑擃亜鐡ф禒銉ュ敶----*/
+.tab{width:100%; clear:both; border-bottom:1px solid #fff;}
+.tab ul{height:25px;  border-bottom:1px solid #65abda;}
+.tab ul li{width:95px; height:25px; margin:0 5px 0 0; float:left; text-align:center; background:url(../images/tab.gif) no-repeat;  font-size:13px;}
+.tab ul li a{color:#035185;line-height:26px;}
+.tab ul li a:hover{ text-decoration:none;}
+/*.tab ul li:hover{background-position:0 -68px;}
+.tab ul li:hover a{color:#fff;}
+*/.tab ul .selected{background-position:0 -68px; font-weight:bold;}
+.tab ul .selected:hover{background-position:0 -68px; font-weight:bold;}
+.tab ul .selected a{color:#fff;}
+	/*-----6娑擃亜鐡ф禒銉ュ敶 end----*/
+
+	/*-----閹稿鏋冪�妤呮毐鎼达箒鍤滈柅鍌氱安----*/
+.tabAuto ul li,
+.tabAuto ul li a{height:25px;background:url(../images/tab2.gif) no-repeat;}
+.tabAuto{width:100%; clear:both; border-bottom:1px solid #fff;}
+.tabAuto ul{height:25px;  border-bottom:1px solid #1a89cb;}
+.tabAuto ul li{margin:0 5px 0 0; padding-left:2px; float:left; position:relative; text-align:center;  font-size:13px;}
+.tabAuto ul li a{padding-right:10px; padding-left:8px; display:block; *display:inline-block; overflow:hidden; background-position:right 0; color:#035185;line-height:26px; }
+.tabAuto ul li a:hover{text-decoration:none;}
+.tabAuto ul .selected{background-position:0 -34px; font-weight:bold;}
+.tabAuto ul .selected:hover{background-position:0 -34px; font-weight:bold;}
+.tabAuto ul .selected a{color:#fff; background-position:right -34px;}
+
+.icontips{width:23px; height:11px; position:absolute; right:-5px; top:-6px; background:url(../images/iconTips.gif) no-repeat;}
+	/*-----閹稿鏋冪�妤呮毐鎼达箒鍤滈柅鍌氱安 end----*/
+
+	/*-----鏉堝啫鐨惃鍕垼缁涳拷---*/
+.tabS ul li,
+.tabS ul li a{height:21px;background:url(../images/tabS.gif) no-repeat;}
+.tabS{width:100%; clear:both; border-bottom:1px solid #fff;}
+.tabS ul{height:21px;  border-bottom:1px solid #65abda;}
+.tabS ul li{ margin:0 1px 0 0; padding-left:2px; float:left; text-align:center;  }
+.tabS ul li a{padding-right:10px; padding-left:8px; display:block; *display:inline-block; overflow:hidden; background-position:right 0; color:#035185;line-height:24px;}
+.tabS ul li a:hover{text-decoration:none;}
+.tabS ul .selected{background-position:0 -34px; font-weight:bold;}
+.tabS ul .selected:hover{background-position:0 -34px; font-weight:bold;}
+.tabS ul .selected a{color:#fff; background-position:right -34px;}
+.tabS ul .liNone{background:none;}
+	/*-----鏉堝啫鐨惃鍕垼缁涳拷end----*/
+/*========閺嶅洨顒�end=======*/
+
+/*========閺嶅洭顣�======*/
+.title{width:100%; height:16px; margin:8px 0 0; }
+.title h2{padding:0 0 0 20px; float:left; font-size:13px; line-height:16px;}
+.title h2.icon1{background:url(../images/icon/iconTitle.gif) no-repeat; }
+.title h2.icon2{background:url(../images/icon/iconTitle2.gif) no-repeat; }
+/*========閺嶅洭顣絜nd=======*/
+
+/*========閹兼粎鍌�======*/
+.searchWrap{margin:10px 0 0; clear:both;}
+	/*---閹兼粎鍌ㄧ敮锕�妇鐟欐帒顧囧锟�-*/
+.searchWrap .searchLeft,
+.searchWrap .searchRight,
+.searchWrap .searchButtom,
+.searchWrap .searchButtomLeft,
+.searchWrap .searchButtoRight,
+.searchWrap .searchBg{background:url(../images/searchBg.png);}
+.searchWrap .searchLeft{width:20px;}
+.searchWrap .searchRight{width:20px; background-position:right 0;}
+.searchWrap .searchButtom{height:5px; background-position:0 -365px;}
+.searchWrap .searchButtomLeft{width:20px; height:5px; background-position:0 -175px;}
+.searchWrap .searchButtoRight{width:20px; height:5px; background-position:-60px -175px;}
+.searchWrap .searchBg{padding:10px 0 5px; background-position:0 -190px;}
+	/*---閹兼粎鍌ㄧ敮锕�妇鐟欐帒顧囧锟絜nd---*/
+
+.search{}
+.search td{padding:0; line-height:18px;}
+/*========閹兼粎鍌╡nd=======*/
+
+/*========瀹搞儱鍙块弽锟�=====*/
+.toolBar{height:20px;  clear:both;padding-top: 5px}
+
+	/*---------缁涙盯锟�--------*/
+.screening{float:left;  line-height:20px;}
+.screening a{padding:0 5px; color:#0088ff;}
+/*---------缁涙盯锟�end---------*/
+
+	/*---------鐎电銆冮弽鍏兼殶閹诡喚娈戦幙宥勭稊---------*/
+.operation{float:right; padding-bottom: 5px;padding-top: 5px}
+.operation .btn{margin:0 1px;}
+	/*---------鐎电銆冮弽鍏兼殶閹诡喚娈戦幙宥勭稊 end---------*/
+
+	/*---------缂堝銆�--------*/
+.pageDown{float:right; color:#666; line-height:20px;padding-bottom: 5px;padding-top: 5px}
+.pageDown a{padding:0 5px; color:#0088ff;}
+.pageDown span{padding:0 5px;}
+.pageDown .btnGo{width:22px; height:20px; border:0; background:url(../images/button/btn22.gif) no-repeat; cursor:pointer; font-size:12px; font-size:11px\9; *font-size:11px;}
+.pageDown .btnGo:hover{background-position:0 -30px;}
+	/*---------缂堝銆塭nd---------*/
+/*========瀹搞儱鍙块弽锟�=====*/
+
+/*========閹稿鎸�======*/
+.btnQuery{width:70px; height:18px; border:none; background:url(../images/button/btnQuery.gif) no-repeat; cursor:pointer;}
+.btnQuery:hover{background-position:0 -28px;}
+
+	/*------閽冩繆澹婇幐澶愭尦閿涘矂鐝�4閸嶅繒绀�start-------*/
+.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9{height:24px; padding-top:3px\9; *padding-top:3px; border:0; background:url(../images/button/btn.gif) no-repeat;  font-size:12px;cursor:pointer}
+.btn2,.btn3,.btn4{width:70px; background-position:0 0;}/*--闁倻鏁ゆ禍搴濊⒈娑擃亜鐡ч妴浣风瑏娑擃亜鐡ч惃鍕瘻闁筋噯绱濇禒銉ょ瑓閹稿鎸抽幐澶嬫殶鐎涙琚幒锟�*/
+.btn2:hover,.btn3:hover,.btn4:hover{background-position:0 -34px;}
+.btn5{width:82px; background-position:-80px 0;}
+.btn5:hover{background-position:-80px -34px;}
+.btn6{width:94px; background-position:-172px 0;}
+.btn6:hover{background-position:-172px -34px;}
+.btn8{width:114px; background-position:-276px 0;}
+.btn8:hover{background-position:-276px -34px;}
+.btn9{width:126px; background-position:-400px 0;}
+.btn9:hover{background-position:-400px -34px;}
+.btn7{width:94px; background-position:-172px 0;}
+.btn7:hover{background-position:-172px -34px;}
+	/*------閽冩繆澹婇幐澶愭尦閿涘矂鐝�4閸嶅繒绀�end-------*/
+	
+	/*------鏉堝啫銇囬惃鍕憫閼瑰弶瀵滈柦顕嗙礉妤傦拷8閸嶅繒绀�start-------*/
+.btnB2,.btnB3,.btnB4,.btnB5,.btnB6,.btnB7,.btnB8,.btnB9{height:28px; padding-top:3px\9; *padding-top:3px; border:0; background:url(../images/button/btnBlue.png) no-repeat; color:#003a82; font-size:13px; font-weight:bold; cursor:pointer}
+.btnB2,.btnB3{width:60px; background-position:0 0;}/*--闁倻鏁ゆ禍搴濊⒈娑擃亜鐡ч妴浣风瑏娑擃亜鐡ч惃鍕瘻闁筋噯绱濇禒銉ょ瑓閹稿鎸抽幐澶嬫殶鐎涙琚幒锟�*/
+.btnB4{width:73px; background-position:-70px 0;}
+.btnB5{width:86px; background-position:-153px 0;}
+.btnB6{width:99px; background-position:-249px 0;}
+.btnB7{width:112px; background-position:-358px 0;}
+.btnB8{width:125px; background-position:-480px 0;}
+.btnB9{width:138px; background-position:-615px 0;}
+	/*------鏉堝啫銇囬惃鍕憫閼瑰弶瀵滈柦顕嗙礉妤傦拷8閸嶅繒绀�end-------*/
+	
+	/*------鏉堝啫鐨惃鍕瘻闁筋噯绱濇锟�閸嶅繒绀� start-------*/
+.btnS2,.btnS3,.btnS4,.btnS5,.btnS6,.btnS7,.btnS8,.btnS9{height:20px; padding-top:3px\9; *padding-top:3px; border:0; background:url(../images/button/btnS.gif) no-repeat;  font-size:12px;cursor:pointer}
+.btnS2,.btnS3{width:50px; background-position:0 0;}/*--闁倻鏁ゆ禍搴濊⒈娑擃亜鐡ч妴浣风瑏娑擃亜鐡ч惃鍕瘻闁筋噯绱濇禒銉ょ瑓閹稿鎸抽幐澶嬫殶鐎涙琚幒锟�*/
+.btnS2:hover,.btnS3:hover{background-position:0 -30px;}
+.btnS4{width:70px; background-position:-60px 0;}
+.btnS4:hover{background-position:-60px -30px;}
+.btnS5{width:77px; background-position:-140px 0;}
+.btnS5:hover{background-position:-140px -30px;}
+.btnS6{width:84px; background-position:-227px 0;}
+.btnS6:hover{background-position:-227px -30px;}
+.btnS7{width:96px; background-position:-321px 0;}
+.btnS7:hover{background-position:-321px -30px;}
+.btnS8{width:108px; background-position:-427px 0;}
+.btnS8:hover{background-position:-427px -30px;}
+.btnS9{width:118px; background-position:-545px 0;}
+.btnS9:hover{background-position:-545px -30px;}
+	/*------鏉堝啫鐨惃鍕瘻闁筋噯绱濇锟�閸嶅繒绀�end-------*/	
+	
+.btnSoso{width:53px; height:22px; _padding-top:22px; overflow:hidden; border:0; background:url(../images/button/btnSoso.gif) no-repeat; text-indent:-9999em; cursor:pointer}	/*----閹兼粎鍌ㄧ亸蹇斿瘻闁斤拷---*/
+.btnSoso:hover{background-position:-63px 0;}	
+.btnAdd{width:83px; height:22px; _padding-top:22px; overflow:hidden;  border:0; background:url(../images/button/btnAdd.gif) no-repeat; text-indent:-9999em; cursor:pointer}	/*----濞ｈ濮為崚鍡欒鐏忓繑瀵滈柦锟�--*/
+.btnAdd:hover{background-position:-93px 0;}
+
+.btnArrL,.btnArrR,.btnArrAdd,.btnArrMinus{width:18px; height:18px; _padding-top:22px; margin-right:3px; display:inline-block;  overflow:hidden; background:url(../images/button/btnArrow.gif) no-repeat; border:0; text-indent:-9999em; cursor:pointer}/*----閸忚京鏁ゆ稉锟界炊閼冲本娅欓崶鎾呯礉閹枫儲婀侀崗鍗炴倱鐏炵偞锟�---*/
+.btnArrL{background-position:0 0;}/*----缁狀厼銇旈幐澶愭尦閸氭垵涔�---*/
+.btnArrL:hover{background-position:0 -23px;}
+.btnArrR{background-position:-23px 0;}/*----缁狀厼銇旈幐澶愭尦閸氭垵褰�---*/
+.btnArrR:hover{background-position:-23px -23px;}
+.btnArrAdd{background-position:-46px 0;}/*----濞ｈ濮為幐澶愭尦----*/
+.btnArrAdd:hover{background-position:-46px -23px;}
+.btnArrMinus{background-position:-69px 0;}/*----閸戝繐鐨幐澶愭尦----*/
+.btnArrMinus:hover{background-position:-69px -23px;}
+
+.inputSo{width:135px; height:20px; margin:0 5px 0 0; border:1px solid #59a7d0;}/*--閹兼粎鍌ㄦ潏鎾冲弳濡楋拷-*/
+
+.noBtn{border:none; background:none;cursor:pointer; font-size:14px; font-weight:bold; color:#fff;}/*--瀵懓鍤粣妤�經瀹搞儱鍙块弽蹇庤厬閻ㄥ嫭瀵滈柦顕嗙窗閻у�澹婄�妞剧秼閿涘本鐥呴張澶庣珶濡楀棛鍤庨崣濠呭剹閺咁垵澹�-*/
+/*========閹稿鎸�end=======*/
+
+
+/*========鐞涖劌宕�======*/
+.input1{height:18px;}
+.input2{height:20px;}
+.form24px{width:24px;}
+/*========鐞涖劌宕焑nd=======*/
+
+/*========鐞涖劍鐗搁弽宄扮础=======*/
+.tableWrap{clear:both;}
+	/*------閽冩繆澹婄悰銊︾壐妞嬪孩鐗�--*/
+.tableCommon{clear:both;width:100%; border-collapse:collapse; border:1px solid #9fd3ef;}
+.tableCommon th,
+.tableCommon td{padding:6px 6px 4px 6px; border:1px solid #85c9ed; background:#fff;}
+.tableCommon th{ height:33px;height:23px\9; *height:23px; background:#3aa5e8 url(../images/thBg.gif) repeat-x; color:#fff; line-height:18px;}
+.tableCommon td a{color:#0066bb;}
+	/*------閽冩繆澹婄悰銊︾壐妞嬪孩鐗�end---*/
+
+	/*------閻忔媽澹婄悰銊︾壐妞嬪孩鐗�--*/
+.tableCommon2{width:100%; border-collapse:collapse; border:1px solid #999;}
+.tableCommon2 th,
+.tableCommon2 td{padding:6px 6px 4px 6px; border:1px solid #999; background:#fff;}
+.tableCommon2 th{background:#ccc repeat-x; line-height:18px;}
+.tableCommon2 td a{color:#0066bb;}
+	/*------閻忔媽澹婄悰銊︾壐妞嬪孩鐗�end---*/
+
+.trBg2 td{background:#fff;}
+.trBg1 td{background:#ecf6ff;}
+.overcolor td{background:#d9f1ff;}
+
+.tdBorWhite th{border:1px solid #fff;}
+.tdBorWhite td{background:#fff; border:1px solid #fff;}
+
+/*.trBlue td,.tdBlue{background:#ccf5ff!important;}!*--閽冩繆澹婇崡鏇炲帗閺嶏拷-*!*/
+.trBlue td,.tdBlue{background:#E0ECFF!important;}/*--閽冩繆澹婇崡鏇炲帗閺嶏拷-*/
+.trBlue2 td,.tdBlue2{background:#b8ddff!important;}/*--鏉堝啯绻侀拑婵婂閸楁洖鍘撻弽锟�*/
+.trBlue3 td,.tdBlue3{background:#72bae2!important;}/*--閺囧瓨绻侀拑婵婂閸楁洖鍘撻弽锟�*/
+.trBlue4 td,.tdBlue4{background:#f0fcff!important;}/*--閺堬拷绁拑婵婂閸楁洖鍘撻弽锟�*/
+.trWhite td, .tdWhite{background:#fff!important;}/*--閻у�澹婇崡鏇炲帗閺嶏拷-*/
+.trGray td, .tdGray{background:#999!important;}/*--閻忔媽澹婇崡鏇炲帗閺嶏拷-*/
+.trGray2 td, .tdGray2{background:#ccc!important;}/*--濞村懐浼嗛懝鎻掑礋閸忓啯鐗�-*/
+.trGray3 td, .tdGray3{background:#eee!important;}/*--閺囧瓨绁悘鎷屽閸楁洖鍘撻弽锟�*/
+.tdBg{background:#b9e7ff url(../images/tdBg.gif) repeat-x!important;}
+
+.trGreen td, .tdGreen{background:#aef063!important;}/*--缂佽儻澹婇崡鏇炲帗閺嶏拷-*/
+.trGreen2 td, .tdGreen2{background:#d1fba1!important;}/*--濞村懐璞㈤懝鎻掑礋閸忓啯鐗�-*/
+
+.tdOpera a{padding:0 5px;color:#f60!important;}/*--閹垮秳缍旈崡鏇炲帗閺嶇》绱濋柧鐐复閺傚洤鐡ф稉鐑橆敊閼癸拷-*/
+
+/*========鐞涖劍鐗搁弽宄扮础 end=======*/
+
+
+/*========閸ョ偓鐖�0px閻ㄥ嫬浼愰崗閿嬬埉=======*/
+.toolBlueBar,
+.toolBlueLeft,
+.toolBlueRight,
+.toolTableBor,
+.toolBlueBar .selected{background:url(../images/toolBlueBg.gif);}
+.toolBlueBar{height:40px; background:url(../images/toolBlueBg.gif);}
+.toolBlueBar a{font-size:14px; font-weight:bold; color:#fff;}
+
+.toolBlueBar .selected{background-position:0 -90px;}
+.toolBlueLeft{width:12px;background-position:0 -45px;}
+.toolBlueRight{width:12px;background-position:-92px -45px;}
+.toolTableBor{width:12px;background-position:-40px -45px;}
+
+/*========閸ョ偓鐖�0px閻ㄥ嫬浼愰崗閿嬬埉 end=======*/
+
+/*========閹绘劗銇氱仦锟�=====*/
+.tips{width:427px;}
+.tipsBox{width:100%; border:1px solid #3db1ee; border-bottom:2px solid #3db1ee; border-collapse:collapse;}
+.tipsBox th{height:32px; background:url(../images/tipsBg.png) repeat-x; text-align:left;color:#fff;}
+.tipsBox th h2{padding:2px 0 0 10px; _padding:5px 0 0 10px; float:left;  font-size:13px;color:#fff;}
+.tipsBox th a.close{width:17px; height:17px; margin:0px 10px 0 0; _margin:5px 5px 0 0; display:block; overflow:hidden; float:right; background:url(../images/closeDiv.png) no-repeat; text-indent:-9999px;}
+.tipsBox th a.close:hover{background-position:-28px 0;}
+.tipsBox td{background:#f1faff;}
+	/*-----閹绘劗銇氶弬鍥х摟-----*/
+.tipsText{width:350px; margin:30px auto 20px; background:none;}
+.tipsText td{font-size:14px; line-height:25px;}
+.tipsText .tipsImg{width:85px;padding:0 20px 0 0;}
+	/*-----閹绘劗銇氶弬鍥х摟 end-----*/
+
+	/*-----閸掓銆�----*/
+.tipsList{margin:10px 0;}
+.tipsList td{padding:3px 3px 3px 15px; line-height:150%;}
+.tipsList a{padding-left:15px; background:url(../images/iconArrow.gif) no-repeat 0 center;}
+	/*-----閸掓銆�end-----*/
+/*========閹绘劗銇氱仦锟絜nd=======*/
+
+.overflow{overflow:hidden;}
+/*===========================button======================*/
+a.big_btn{background:url(../images/big_btn_left.gif) left top no-repeat; padding-left:10px; float:left; height:28px;}
+a.big_btn span{background:url(../images/big_btn_right.gif) right top no-repeat; padding:8px 10px 7px 0; display:block; color:#003A82; font-weight:bold; font-size:13px; cursor:pointer;}
+
+a.mid_btn{background:url(../images/mid_btn_left.gif) left top no-repeat; padding-left:10px; float:left; height:24px;}
+a.mid_btn span{background:url(../images/mid_btn_right.gif) right top no-repeat; padding:6px 10px 5px 0; display:block; cursor:pointer;}
+a:hover.mid_btn{background:url(../images/mid_btn_left.gif) left -34px no-repeat; padding-left:10px; float:left; height:24px;}
+a:hover.mid_btn span{background:url(../images/mid_btn_right.gif) right -34px no-repeat; padding:6px 10px 5px 0; display:block; cursor:pointer;}
+
+a.little_btn{background:url(../images/little_btn_left.gif) left top no-repeat; padding-left:10px; float:left; height:20px;}
+a.little_btn span{background:url(../images/little_btn_right.gif) right top no-repeat; padding:4px 10px 3px 0; display:block; cursor:pointer;}
+a:hover.little_btn{background:url(../images/little_btn_left.gif) left -30px no-repeat; padding-left:10px; float:left; height:20px;}
+a:hover.little_btn span{background:url(../images/little_btn_right.gif) right -30px no-repeat; padding:4px 10px 3px 0; display:block; cursor:pointer;}
+/*===========================button======================*/
+.timeList {padding: 10px 5px 8px 20px;overflow: hidden;}
+.timeList ul {overflow:hidden;}
+.timeList li {width: 260px;height: 25px;padding-left: 15px;padding-right: 10px;float: left;display: inline;background: url(../images/iconArrow.gif) no-repeat 0 4px;}
+.timeList h3 {height: 25px;padding-top: 5px;display: block;clear: both;font-size: 13px;font-weight: bold;}
+.both{clear:both; margin:0; padding:0;}
+.body_over{
+ 	overflow-x:hidden;
+ 	overflow-y:auto;
+ }
+.autoBox_{height:200px;overflow-y:scroll; background:#fff;border:1px solid #ddd;padding:3px 5px 5px;position:absolute;z-index:9999;display:none;-webkit-box-shadow:0px 2px 7px rgba(0, 0, 0, 0.35);-moz-box-shadow:0px 2px 7px rgba(0, 0, 0, 0.35);}
+.autoBox_ p{width:100%;margin:0;padding:0;height:20px;line-height:20px;clear:both;font-size:12px;color:#ccc;cursor:default;}
+.autoBox_ ul{padding:0;margin:0;}
+.autoBox_ li{font-size:12px;height:22px;line-height:22px;color:#939393;font-family:'Tahoma';list-style:none;cursor:pointer;overflow:hidden;}
+.autoBox_ .cmail{color:#000;background:#e8f4fc;}
+#form_list table.tableCommon tbody tr:hover td,#table  table.tableCommon tbody tr:hover td{background-color:rgb(123,202,251)!important;}

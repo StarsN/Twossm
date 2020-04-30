@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+<!--                <property name="driver" value="com.mysql.jdbc.Driver"/>-->
+                <property name="driverClass" value="com.mysql.cj.jdbc.Driver" />
+<!--                <property name="url" value="jdbc:mysql:///ssm"/>-->
+<!--                <property name="url" value="jdbc:mysql://localhost:3306/ssm"/>-->
+                <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/ssm?characterEncoding=utf-8&amp;serverTimezone=Asia/Shanghai&amp;useSSL=false"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 使用的是注解 -->
+<!--    <mappers>-->
+<!--        &lt;!&ndash; <mapper class="com.gx.dao.IAccountdao"/> &ndash;&gt; &lt;!&ndash; 该包下所有的dao接口都可以使用 &ndash;&gt;-->
+<!--        <package name="com.gx.dao"/>-->
+<!--    </mappers>-->
+    <mappers>
+        <!-- <mapper class="com.gx.dao.IAccountdao"/> --> <!-- 该包下所有的dao接口都可以使用 -->
+        <package name="com.gx.example.dao"/>
+        <package name="com.gx.merchandise.dao"/>
+        <package name="com.gx.user.dao"/>
+        <package name="com.gx.login.dao"/>
+        <package name="com.gx.person.dao"/>
+        <package name="com.gx.member.dao"/>
+        <package name="com.gx.intelligentlink.dao"/>
+        <package name="com.gx.weiPage.dao"/>
+        <package name="com.gx.brand.dao"/>
+        <package name="com.gx.merchant.dao"/>
+        <package name="com.gx.portal.item.dao"/>
+        <package name="com.gx.whiteList.dao"/>
+        <package name="com.gx.order.dao"/>
+        <package name="com.gx.address.dao"/>
+        <package name="com.gx.portal.cart.dao"/>
+        <package name="com.gx.marketingtool.coupon.dao"/>
+<!--        <package name="com.gx.*.dao"/>-->
+    </mappers>
+</configuration>
